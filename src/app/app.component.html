@@ -1,9 +1,9 @@
 <nav class="navbar navbar-expand navbar-dark bg-dark">
-    <a href="" class="navbar-brand">Know Your Food</a>
+    <a href="" class="navbar-brand">Get It </a>
     <ul class="nav nav-pills">
         <li><a [routerLink]="['/welcome']" class="nav-link">Home</a></li>
         <li><a [routerLink]="['/receipe']" class="nav-link">Food List</a></li>
-        <li><a [routerLink]="['/signup']" class="nav-link" *ngIf='!loggedIn'>SignUp</a></li>
+        <li><a [routerLink]="['/signup']" class="nav-link" *ngIf='!loggedIn'>Sign Up</a></li>
         <li class="nav-link" style="color:azure" *ngIf='!loggedIn'>OR</li>
     </ul>
     <a (click)='signInWithGoogle()' class="nav-link" *ngIf='!loggedIn'><i class="fa fa-google fa-2x fa-inverse"></i></a>

@@ -9,10 +9,10 @@ import { Router } from '@angular/router';
 })
 export class SignupFormComponent implements OnInit {
   OriginalUserData: FormData = {
-    firstname: 'Punam',
-    lastname: 'Shelke',
+    firstname: 'Veera',
+    lastname: 'Naveen',
     promotion: true,
-    email: 'punam@gmail.com',
+    email: 'veeranavin0716@gmail.com',
     password: '',
     confirmPassword: '',
     dob: '',

@@ -10,7 +10,7 @@ import { SocialUser } from "angularx-social-login";
 export class AppComponent implements OnInit {
   user: SocialUser;
   loggedIn: boolean;
-  title = 'Know-Your-Food';
+  title = 'Get It';
   constructor(private authService: SocialAuthService) { }
   ngOnInit(): void {
     this.authService.authState.subscribe((user) => {

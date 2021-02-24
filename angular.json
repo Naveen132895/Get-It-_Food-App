@@ -122,5 +122,8 @@
       }
     }
   },
-  "defaultProject": "Know-Your-Food"
+  "defaultProject": "Know-Your-Food",
+  "cli": {
+    "analytics": false
+  }
 }
